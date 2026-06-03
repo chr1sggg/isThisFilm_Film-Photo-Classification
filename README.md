@@ -10,19 +10,15 @@ photography unique, and achieves great classification performance.
 1. Install libs
 
 ```
-pip install huggingface_hub
 pip install -r requirements.txt
 ```
 
 2. Download Model
+Download the model from
 
-```python
-from huggingface_hub import hf_hub_download
+https://huggingface.co/chr1sggg/Film-Photo-Classification/tree/main
 
-hf_hub_download(repo_id="chr1sggg/Film-Photo-Classification", filename="model.pth")
-
-```
-3. Run
+4. Run
 
 ```
 python main.py
