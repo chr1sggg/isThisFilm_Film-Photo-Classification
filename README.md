@@ -18,7 +18,7 @@ Download the model from
 
 https://huggingface.co/chr1sggg/Film-Photo-Classification/tree/main
 
-4. Run
+3. Run
 
 ```
 python main.py
